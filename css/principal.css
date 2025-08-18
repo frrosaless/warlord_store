@@ -142,16 +142,22 @@ nav a:hover {
     border-radius: 8px;
     width: 400px;
     height: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.text-juego-precio {
+    text-align: right;
 }
 
 .text-juego-precio a {
     font-size: 1.5em;
-    position: absolute;
     text-decoration: none;
-    padding: 10px;
-    margin: 5px;
+    padding: 5px;
     font-weight: bold;
     color: rgb(204, 109, 53);
+    width: 100%;
     
 }
 
